@@ -9,9 +9,7 @@
 	            "NAME": "",
 	            "TYPE": "",
 	            "DESCRIPTION": "" 
-	            } 
-
-
+	           } 
 
 .. table::
 
