@@ -13,6 +13,7 @@
    :maxdepth: 1
    :caption: Объектная модель данных
 
+   Введение <Описание_1.0>
    Компонента <INSTANCE>
    Контрагент <CONTRAGENT>
    Договор <AGREEMENT>
