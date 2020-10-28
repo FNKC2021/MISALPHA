@@ -13,27 +13,26 @@
    :maxdepth: 1
    :caption: Объектная модель данных
 
+   Компонента <INSTANCE>
    Контрагент <CONTRAGENT>
    Договор <AGREEMENT>
-   Компонента <INSTANCE>
    Канал финансирования <PAYMENT_TYPE>
    Источник финансирования <MARGINAL_INCOME>
-   Услуга <SERVICE>
-   Персона <PERSON>
-   МКБ10 (Диагноз) <MKB10>
-   Стандарт <STANDART>
-   Должность <APPOINT>
-   Специальность <SPECIALITY>
-   Отделение <DEPARTMENT>
-   Врач <DOCTOR>
-   Шт.расстановка <STAFF>
    Роль пользователя МИС <ROLE>
    Пользователь <USER>
+   Персона <PERSON>
+   Должность <APPOINT>
+   Специальность <SPECIALITY>
+   Шт.расстановка <STAFF>
+   Отделение <DEPARTMENT>
+   Врач <DOCTOR>
+   МКБ10 (Диагноз) <MKB10>
+   Стандарт <STANDART>
+   Услуга <SERVICE>
    Талон <TALON>
    Назначение <ORDER>
    Операция <SURGERY>
    Медицинская карта <CHART>
-
 
 Вопросы по работе API, а также пожелания по доработкам направляйте прямо к нам.
 
