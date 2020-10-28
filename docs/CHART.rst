@@ -8,18 +8,19 @@
 	         "NUMBER": "",
 	         "TYPE": "",
 	         "DATE": "",
-	         "OUT_DATE": ""
+		 "CRT_DATE": "",
+	         "OUT_DATE": "",
 	         "INSTANCE_NAME": "",
-	         "PERSON": {...}                       
+	         "PERSON": {...},                       
 	         "DIAGNOSES":[
 	  		      "MKB10":{...}
-	                     ]    
-	         "DOCTOR_APPOINTED_AT":"";
-                 "DOCTOR":{...}
-	         "DEPARTMENT":{...}
+	                     ],  
+	         "DOCTOR_APPOINTED_AT":"",
+                 "DOCTOR":{...},
+	         "DEPARTMENT":{...},
                  "ORDERS": [       
               	 	    "ORDER": {...}
-              		   ]
+              		   ],
 	         "SURGERIES":[
 	                      "SURGERY"{...}
 	                     ]    
