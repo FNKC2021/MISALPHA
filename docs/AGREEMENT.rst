@@ -4,16 +4,15 @@
 ::
 
 	"AGREEMENT":{
-	        "ID": "",
-	        "NAME": "",
-	        "NUMBER": "",
-	        "TYPE": "",
-	        "DATE_BEGIN": "",
-	        "DATE_END": "",
-	        "CONTRAGENT_ID": "",   
-	        "INSTANCE_NAME": "", 
-	          }
-
+  	             "ID": "",
+  	             "NAME": "",
+  	             "NUMBER": "",
+  	             "TYPE": "",
+  	             "DATE_BEGIN": "",
+  	             "DATE_END": "",
+  	             "CONTRAGENT_ID": "",   
+  	             "INSTANCE_NAME": "", 
+	            }
 
 .. table::
 
