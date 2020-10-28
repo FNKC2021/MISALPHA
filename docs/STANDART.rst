@@ -12,7 +12,7 @@
 	            "DEPARTMENTS":["DEPARTMENT_ID":""],
 	            "DOCTORS":["DOCTOR_ID":""],
 	            "MKB10S":["MKB10_ID":""],
-	            "SERVICES":{["SERVICE_ID":""],
+	            "SERVICES":["SERVICE_ID":""]
 	           }
 
 .. table::
