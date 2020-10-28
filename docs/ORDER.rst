@@ -3,16 +3,16 @@
 
 ::
 
-	"ORDER":{
-	         "ID": "",
-	         "CREATOR_ID": "",
-	         "CHART_ID": "",
-	         "CRT_DATE": "",
-	         "ORDER_DATETIME": "",
-	         "SERVICE": "",
+  "ORDER":{
+           "ID": "",
+           "CREATOR_ID": "",
+           "CHART_ID": "",
+           "CRT_DATE": "",
+           "ORDER_DATETIME": "",
+           "SERVICE": "",
            "SERVICE_COUNT": "",
-	         "TALON": {...}  
-	        }
+           "TALON": {...}  
+          }
 
 .. table::
 
@@ -34,4 +34,3 @@
   | TALON          | Объект талон             | Object         |
   +----------------+--------------------------+----------------+
 
-  
