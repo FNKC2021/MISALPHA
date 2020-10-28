@@ -16,8 +16,8 @@
    Контрагент <CONTRAGENT>
    Договор <AGREEMENT>
    Компонента <INSTANCE>
-   канал финансирования <PAYMENT_TYPE>
-   источник финансирования <MARGINAL_INCOME>
+   Канал финансирования <PAYMENT_TYPE>
+   Источник финансирования <MARGINAL_INCOME>
    Услуга <SERVICE>
    Персона <PERSON>
    МКБ10 (Диагноз) <MKB10>
@@ -26,9 +26,9 @@
    Специальность <SPECIALITY>
    Отделение <DEPARTMENT>
    Врач <DOCTOR>
-   шт.расстановка  <STAFF>
-   Роль Пользователя МИС <ROLE>
-   пользователь  <USER>
+   Шт.расстановка <STAFF>
+   Роль пользователя МИС <ROLE>
+   пользователь <USER>
    Талон <TALON>
    Назначение <ORDER>
    Операция <SURGERY>
