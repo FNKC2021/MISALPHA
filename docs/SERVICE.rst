@@ -17,8 +17,8 @@
              "DURATION": "",
              "TIMETABLE": "",
              "TAGS": "",
-             "INSTANCE_CODE": "",          
-             "REGISTRY_REQUIREMENT": "",
+             "REGISTRY_REQUIREMENT": "",          
+             "INSTANCE_CODE": "",
             }
 
 .. table::
