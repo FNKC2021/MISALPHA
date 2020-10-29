@@ -12,17 +12,17 @@
 	         "INSTANCE_CODE": "",
 	         "PERSON": {...}                       
 	         "DIAGNOSIS":
-                  {
-                  "MKB10": {...},
-                  "TYPE": "",
-                  "DATE": "",
-                  "DOCTOR_AUTHOR": "",
-                   }	                         
+                      {
+                        "MKB10": {...},
+                        "TYPE": "",
+                        "DATE": "",
+                        "DOCTOR_AUTHOR": "",
+                      }	                         
 	         "DOCTOR_APPOINTED_AT":"";
            "DOCTOR":{...}
 	         "DEPARTMENT":{...}
-           "ORDERS": ["ORDER"]
-	         "SURGERIES":["SURGERY"]    
+           "ORDERS": [{"ORDER"}]
+	         "SURGERIES":[{"SURGERY"}]    
 	        }    
 
 .. table::
