@@ -6,7 +6,10 @@ API Demands 1.0
 правильные форматы описания
 
 массив данных
-"AGREEMENTS": [ {"AGREEMENT_ID": ""} ]
+"AGREEMENTS": [{"AGREEMENT_ID": ""}]
 
 массив объектов
-"SURGERIES":[{"SURGERY"}]
+"SURGERIES": [{"SURGERY"}]
+
+просто объект
+"DOCTOR": {"DOCTOR"}
