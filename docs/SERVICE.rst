@@ -3,23 +3,23 @@
 
 ::
 
-	"SERVICE":{
-	           "ID": "",
-	           "CODE": "",
-	           "NAME": "",
-	           "STYPE": "",
+  "SERVICE":{
+             "ID": "",
+             "CODE": "",
+             "NAME": "",
+             "STYPE": "",
              "STYPE_NAME": "",
-	           "TTYPE": "",
-	           "COST": "",
-	           "COST_PERSON": "",
-	           "DESCRIPTION": "",
+             "TTYPE": "",
+             "COST": "",
+             "COST_PERSON": "",
+             "DESCRIPTION": "",
              "PREPARATION": "", 
              "DURATION": "",
              "TIMETABLE": "",
              "TAGS": "",
-	           "INSTANCE_CODE": "",          
-	           "REGISTRY_REQUIREMENT": "",
-	          }
+             "REGISTRY_REQUIREMENT": "",          
+             "INSTANCE_CODE": "",
+            }
 
 .. table::
 
