@@ -4,14 +4,14 @@
 ::
 
 	"CHART":{
-	         "ID": "",
-	         "NUMBER": "",
-	         "TYPE": "",
-	         "DATE": "",
-	         "OUT_DATE": ""
-	         "INSTANCE_CODE": "",
-	         "PERSON": {...}                       
-	         "DIAGNOSIS":
+          "ID": "",
+          "NUMBER": "",
+          "TYPE": "",
+          "DATE": "",
+          "OUT_DATE": ""
+          "INSTANCE_CODE": "",
+          "PERSON": {...}
+          "DIAGNOSIS":
                       {
                         "MKB10": {...},
                         "TYPE": "",
