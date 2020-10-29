@@ -4,25 +4,25 @@
 ::
 
 	"CHART":{
-          "ID": "",
-          "NUMBER": "",
-          "TYPE": "",
-          "DATE": "",
-          "OUT_DATE": ""
-          "INSTANCE_CODE": "",
-          "PERSON": {...}
-          "DIAGNOSIS":
-                      {
-                        "MKB10": {...},
-                        "TYPE": "",
-                        "DATE": "",
-                        "DOCTOR_AUTHOR": "",
-                      }	                         
-          "DOCTOR_APPOINTED_AT":"";
-          "DOCTOR":{...}
-          "DEPARTMENT":{...}
-          "ORDERS": [{"ORDER"}]
-          "SURGERIES":[{"SURGERY"}]    
+              "ID": "",
+              "NUMBER": "",
+              "TYPE": "",
+              "DATE": "",
+              "OUT_DATE": ""
+              "INSTANCE_CODE": "",
+              "PERSON": {...}
+              "DIAGNOSIS":
+                          {
+                            "MKB10": {...},
+                            "TYPE": "",
+                            "DATE": "",
+                            "DOCTOR_AUTHOR": "",
+                          }	                         
+              "DOCTOR_APPOINTED_AT":"";
+              "DOCTOR":{...}
+              "DEPARTMENT":{...}
+              "ORDERS": [{"ORDER"}]
+              "SURGERIES":[{"SURGERY"}]    
 	        }    
 
 .. table::
