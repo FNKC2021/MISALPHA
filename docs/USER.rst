@@ -20,11 +20,7 @@
 			        "CODE": ""
 			       }
 	       		  ],   
-	       	"DOCTORS": [
-			  "DOCTOR":{
-				    ...
-				   }
-			   ]     
+	       	"DOCTORS": [{"DOCTOR"}]
 	       }     
 
 .. table::

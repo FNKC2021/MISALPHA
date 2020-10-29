@@ -10,19 +10,19 @@
               "DATE": "",
               "OUT_DATE": ""
               "INSTANCE_CODE": "",
-              "PERSON": {...}
+              "PERSON": {"PERSON"}
               "DIAGNOSIS":
                           {
-                            "MKB10": {...},
+                            "MKB10": {"MKB10"},
                             "TYPE": "",
                             "DATE": "",
                             "DOCTOR_AUTHOR": "",
                           }	                         
-              "DOCTOR_APPOINTED_AT":"";
-              "DOCTOR":{...}
-              "DEPARTMENT":{...}
+              "DOCTOR_APPOINTED_AT": "";
+              "DOCTOR": {"DOCTOR"}
+              "DEPARTMENT": {"DEPARTMENT"}
               "ORDERS": [{"ORDER"}]
-              "SURGERIES":[{"SURGERY"}]    
+              "SURGERIES": [{"SURGERY"}]    
 	        }    
 
 .. table::

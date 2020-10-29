@@ -11,7 +11,7 @@
            "ORDER_DATETIME": "",
            "SERVICE": "",
            "SERVICE_COUNT": "",
-           "TALON": {...}  
+           "TALON": {"TALON"}  
           }
 
 .. table::

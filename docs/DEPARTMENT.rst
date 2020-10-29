@@ -11,7 +11,7 @@
 	              "SHORTNAME": "",
 	              "TYPE": "",
 	              "INSTANCE_CODE": "",
-	              "APPOINTS":[APPOINT{...}],
+	              "APPOINTS": [{"APPOINT": ""}],
 	             }
 
 .. table::

@@ -9,7 +9,7 @@
 	         "IN_DATE": "",
 	         "RATE":"",
 	         "DEPARTMENT_NAME":"",
-	         "DOCTOR" {...}
+	         "DOCTOR": {"DOCTOR"}
 	        }
 
 .. table::

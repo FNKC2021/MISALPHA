@@ -7,10 +7,10 @@
 	          "ID": "",
 	          "DEGREE": "",
 	          "INSTANCE_CODE": "",
-	          "PERSON": {...},
-	          "APPOINT": {...},
-	          "SPECIALITY": {...},
-	          "DEPARTMENT":{...},
+	          "PERSON": {"PERSON"},
+	          "APPOINT": {"APPOINT"},
+	          "SPECIALITY": {"SPECIALITY"},
+	          "DEPARTMENT": {"DEPARTMENT"},
 	         }
 
 .. table::

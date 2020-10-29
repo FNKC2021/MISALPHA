@@ -10,7 +10,7 @@
 	           "SURGERY_DURATION": "",
 	           "ANESTHESIA": "",
 	           "DOCTOR": {...},
-	           "SERVICES": [ {...},]
+	           "SERVICES": [{"SERVICE"}]
 	          }  
 
 .. table::

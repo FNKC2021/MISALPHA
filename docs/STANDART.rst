@@ -13,10 +13,10 @@
 	            "TYPE": "",
 	            "NAME": "",
 	            "DESCRIPTION": ""
-	            "DEPARTMENTS":["DEPARTMENT_ID":""],
-	            "DOCTORS":["DOCTOR_ID":""],
-	            "MKB10S":["MKB10_ID":""],
-	            "SERVICES":[{"SERVICE_ID":"", "COUNT":"1"}],
+	            "DEPARTMENTS": [{"DEPARTMENT_ID": ""}],
+	            "DOCTORS": [{"DOCTOR_ID": ""}],
+	            "MKB10S": [{"MKB10_ID": ""}],
+	            "SERVICES": [{"SERVICE_ID": "", "COUNT": ""}],
 	           }
 
 .. table::
