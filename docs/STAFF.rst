@@ -7,8 +7,8 @@
 	         "ID": "",
 	         "EXT_CODE": "",
 	         "IN_DATE": "",
-	         "RATE":"",
-	         "DEPARTMENT_NAME":"",
+	         "RATE": "",
+	         "DEPARTMENT_NAME": "",
 	         "DOCTOR": {"DOCTOR"}
 	        }
 

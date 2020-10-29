@@ -9,7 +9,7 @@
 	           "PLAN_DATETIME": "",
 	           "SURGERY_DURATION": "",
 	           "ANESTHESIA": "",
-	           "DOCTOR": {...},
+	           "DOCTOR": {"DOCTOR"},
 	           "SERVICES": [{"SERVICE"}]
 	          }  
 
