@@ -18,11 +18,11 @@
                         "DATE": "",
                         "DOCTOR_AUTHOR": "",
                       }	                         
-	         "DOCTOR_APPOINTED_AT":"";
-           "DOCTOR":{...}
-	         "DEPARTMENT":{...}
-           "ORDERS": [{"ORDER"}]
-	         "SURGERIES":[{"SURGERY"}]    
+          "DOCTOR_APPOINTED_AT":"";
+          "DOCTOR":{...}
+          "DEPARTMENT":{...}
+          "ORDERS": [{"ORDER"}]
+          "SURGERIES":[{"SURGERY"}]    
 	        }    
 
 .. table::
