@@ -1,0 +1,50 @@
+"select
+--добавь пожалуйста в выгрузку
+  --v номер АК(номер ИБ?) - chart_code
+  --v person_id - CHART_PERSON_ID
+  --v поле которое покажет первый раз пациент госпитализируется или повторно - chart_before_count
+  --v планируемое кол-во дней госпитализации - planned_dayscount из заявки
+  --v либо планируемая дата выписки - chart_planned_date_out
+  c.ID as chart_id,
+  c.CODE as chart_code,
+  c.PERSON_ID as chart_person_id,
+  
+  R_BIRTHDAY(c.PERSON_ID, c.DATE_IN+1) as chart_person_birthday,
+  R_AGE(c.PERSON_ID, c.DATE_IN+1) as chart_person_age,
+  
+  c.DATE_IN as chart_date_in,
+  c.DATE_OUT as chart_date_out,
+  c.BED_DAYS_DW as chart_bed_days,
+  to_char(od_util.get_chart_plan_vypis_date(c.ID), 'dd.mm.yyyy') as chart_planned_date_out,
+  
+  d.SCHEDULE_DATE as planned_date_in,
+  d.DAYSCOUNT as planned_dayscount,
+  
+  R_SEX(c.PERSON_ID, c.DATE_IN+1) as chart_person_gender,
+  
+  GET_MKB10_CODE(d.MKB_ID) as planned_mkb_code,
+  GET_MKB10_NAME(d.MKB_ID) as planned_mkb_name,
+  c.MKB as chart_out_mkb_code,
+  c.MKB_NAME as chart_out_mkb_name,
+  (select count(*) from T_MED_CHRTS cc where cc.status = 0 and cc.KIND = 'ИБ' and cc.T_PERSON_ID = c.PERSON_ID and cc.IN_DATE < c.DATE_IN) as chart_before_count,
+  
+  d.FINANCING_CHANNEL_NAME as planned_FC_NAME,
+  d.FINANCING_CHANNEL_PARANT_NAME as planned_FC_PARENT_NAME,
+  
+  c.OTD_NAME as chart_dep_first,
+  c.OTD_PROF_OUT_NAME as char_dep_out,
+  d.CONTRAGENT_FULLNAME as planned_dep_in,
+  (select m.INSTANCE from T_MED_CHRTS m where m.ID = c.id) as INSTANCE,
+--  добавить ФИО лечащего врача (+код если есть)
+  o_otdelenie.GET_LECH_ESS(c.id) doctor_name,
+  o_otdelenie.GET_LECH_ESS_ID(c.id) doctor_id,
+--  операцию которая была проведена (+код операции)
+  (SELECT o.id FROM OD_ORDERS o WHERE ROWNUM = 1 and o.STYPE = 'ST_OPER' and o.STATUS = 0 and o.CHART_ID = c.id) oper_order_id,
+  (SELECT o.SERVICE_ID FROM OD_ORDERS o WHERE ROWNUM = 1 and o.STYPE = 'ST_OPER' and o.STATUS = 0 and o.CHART_ID = c.id) oper_id,
+  (SELECT s.CODE FROM OD_ORDERS o, ec_srvs s WHERE ROWNUM = 1 and o.STYPE = 'ST_OPER' and o.STATUS = 0 and o.SERVICE_ID = s.ID and o.CHART_ID = c.id) oper_code,
+  (SELECT s.name FROM OD_ORDERS o, ec_srvs s WHERE ROWNUM = 1 and o.STYPE = 'ST_OPER' and o.STATUS = 0 and o.SERVICE_ID = s.ID and o.CHART_ID = c.id) oper_name
+  
+from
+  Z.FK_CHART c
+    JOIN HOSP.DEMANDS d ON d.MED_CHART_ID = c.ID
+      LEFT JOIN MKB10 mkb ON mkb.ID = d.MKB_ID"
